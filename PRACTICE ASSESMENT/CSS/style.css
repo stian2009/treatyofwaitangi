@@ -1,0 +1,95 @@
+#wrapper {
+    display: grid;
+    height:600px;
+    background-color: white;
+   
+    
+}
+
+
+#innergrid {
+    display:grid;
+    width:1fr;
+    
+    grid-template-areas: "header header header1"
+                        "nav main section"
+                        "section1 section1 section"
+                        "section2 section2 section"
+                        "footer footer section"; 
+    column-gap: 20px;
+    
+       
+}
+
+div {
+    border: 1px solid black;
+}
+
+#header {
+    grid-area: header;
+    text-align: center;
+    font-size:18px;
+   
+}
+
+#nav {
+   grid-area: nav;
+    text-align: center;
+    
+    
+} 
+
+#main {
+   grid-area: main;
+    text-align: center;
+    font-size: 18px;
+    
+}
+
+#section1 {
+    grid-area: section1;
+   
+}
+
+#section2 {
+   grid-area: section2;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+#header1 {
+    grid-area: header1;
+    
+    
+}
+
+#section{
+    grid-area: section;
+     
+}
+
+html {
+    background-color: gray;
+}
+
+h1 {
+    text-align: center;
+}
+img {
+    width:200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
